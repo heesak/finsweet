@@ -337,14 +337,14 @@ section h1{
     font-family: 'Rubik', sans-serif;
 }
 .author_container{
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     display: flex;
     justify-content: space-around;
     font-family: 'Rubik', sans-serif;
 }
 .author_div{
     padding-top: 15px;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -385,7 +385,7 @@ cursor: pointer;
 }
 
 .socials_links-holder{
-    border: 3px solid greenyellow;
+    /* border: 3px solid greenyellow; */
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
@@ -414,48 +414,55 @@ cursor: pointer;
 
 /* =======listed logo starts here====== */
 .logo_container{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     padding: 60px 0;
     background: url(./logos/Logo\ component.png);
     background-repeat: no-repeat;
     background-position: center;
+    transition: 400ms;
+}
+.logo_container:hover{
+    box-shadow: 0 15px 10px #777;
+    transition: 400ms;
 }
 /* =======listed logo ends here====== */
 
 /* ======testimonials starts here======= */
 
 .testimonial_container{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     padding: 4rem;
     /* font-family: 'Rubik', sans-serif; */
 font-family: 'Thasadith', sans-serif;
+background: var(--author-hover);
 }
 .right_write{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     padding: 3rem;
     width: 40%;
 }
 .left_write{
-    border: 3px solid aqua;
-    padding: 1rem;
+    border-left: 3px solid var(--medium-grey);
+    /* padding: 1rem; */
+    padding-left: 5rem;
     width: 60%;
 }
 .second_container{
-    border: 3px solid goldenrod;
+    /* border: 3px solid goldenrod; */
     padding: 3rem 0;
     width: 100%;
    
 }
 
 .test_pic-holder{
-    border: 3px solid ;
+    /* border: 3px solid ; */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
 }
 .pics{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     background: url(./pictures/Profile\ picture.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -464,7 +471,63 @@ font-family: 'Thasadith', sans-serif;
     width: 70px;
 }
 .icons__holder{
-    border: 3px solid blue;
-    padding: 20px ;
+    /* border: 3px solid blue; */
+    padding: 20px 4rem ;
+    width: 60%;
+    display: flex;
+    /* justify-content: space-between; */
 }
+.control_icon{
+    /* border: 3px solid green; */
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    transition: 300ms;
+
+}
+.control_icon:hover{
+    background: var(--yellow);
+    color: var(--white);
+    width: 60px;
+    height: 60px;
+    transition: 400ms;
+    box-shadow: 0 5px 05px #777;
+}
+
 /* ======testimonials ends here======= */
+
+
+/* =================finishing starts here============ */
+
+.final_message{
+    text-align: center;
+}
+.final_message h2{
+    padding-top: 20px;
+    font-size: 40px;
+
+    font-family: 'Rubik', sans-serif;
+font-family: 'Thasadith', sans-serif;
+}
+.final-message {
+    font-weight: lighter;
+    padding: 10px 0;
+}
+/* =================finishing endt here============ */
+
+/* ======footer section starts here==== */
+.footer_container{
+    border: 3px solid red;
+}
+.subscribe_container{
+    border: 2px solid green;
+}
+.footer{
+    border: 3px solid yellow;
+    padding: 20px 30px;
+}
+/* ======footer section starts here==== */
