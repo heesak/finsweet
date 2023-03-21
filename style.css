@@ -1,0 +1,470 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.header_section{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.header{
+    /* border: 3px solid red; */
+    padding: 0.5rem 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--black);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+
+
+
+}
+.header h1{
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.sweet{
+    color: var(--yellow);
+}
+.window-scroll{
+    background: var(--black);
+}
+li{
+    padding: 0 0.3rem;
+    transition: 400ms;
+    border: 0px solid transparent;
+}
+li:hover{
+    padding: 0.4rem 0.5rem;
+    border: 1px solid white;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0.6rem 0;
+    align-items: center;
+    
+
+}
+.left_holder{
+    padding-left: 2rem;
+    font-weight: bolder;
+    /* border: 3px solid aqua; */
+}
+.nav_holder{
+    /* border: 3px solid green; */
+    width: 50%;
+    /* display: flex; */
+    
+   
+}
+
+
+
+.btn{
+    padding: 0.7rem 2rem;
+    border: 0;
+}
+
+.header-btn{
+    background: var(--white);
+    color: var(--black);
+    transition: 400ms;
+}
+
+.header-btn:hover{
+    background:transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+/* =======header ends here======= */
+
+
+
+/* =======hero section starts here======= */
+
+.hero_container{
+    height: 720px;
+    /* border: 3px solid red;    */
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    padding: 6rem 5rem;
+    
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url(./pictures/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
+
+    
+}
+.hero_container p{
+    /* border: 3px solid; */
+    padding: 2rem 0;
+    color: var(--white);
+    font-weight: 100;
+}
+.hero_container h1{
+    color: var(--white);
+}
+span{
+    color: var(--yellow);
+}
+.read_btn{
+    margin-top: 1rem;
+    background: var(--yellow);
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    padding: 1rem 2rem;
+    transition: 400ms;
+}
+.read_btn:hover{
+    background: var(--btn-after);
+    cursor: pointer;
+    color: var(--white);
+}
+/* =======hero section ends here======= */
+
+
+
+/* -- ====feature post section starts here========= */
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    color: var(--black);
+    font-family: 'Rubik', sans-serif;
+}
+.featured_post{
+    border: 3px solid white;
+    padding: 2rem 2rem;
+}
+.left__holder{
+    border: 0.01px solid ;
+    width: 60%;
+    padding-left:1rem ;
+}
+.left__holder p{
+    padding: 1rem 0;
+}
+.post_section{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+.right_holder{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.write-up {
+    /* border: 3px solid green; */
+    padding: 30px 40px;
+    text-align: left;
+}
+.write-up:hover{
+    background: var(--box-color);
+}
+.by{
+    font-size: 12px;
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ====feature post section ends here=========  */
+
+.multi-color_container{
+    /* border: 2px solid aqua; */
+    /* padding: 15px  0; */
+    display: flex;
+}
+.first{
+    width: 20%;
+    /* border: 3px solid yellow; */
+    background-color:var(--white) ;
+    height: 40px;
+}
+.sec{
+    /* border: 3px solid green; */
+    background-color: var(--yellow);
+    height: 40px;
+    width: 60%;
+}
+.third{
+    /* border: 2px solid blue; */
+    background-color: var(--purple);
+    height: 40px;
+    width: 20%;
+}
+
+/* ==========ABOUT US AND MISSIONS STARTS HERE========= */
+.about_container{
+    font-family: 'Rubik', sans-serif;
+    /* border: 3px solid red; */
+    display: flex;
+    background-color: #F4F0F8;
+    padding-bottom: 15px;
+    /* padding: 5rem 0; */
+    /* width: 80%; */
+}
+
+.our-mission, .about-us{
+    /* border: 3px solid blueviolet; */
+    padding: 0 30px;
+    width: 50%;
+}
+.about-us .our-mission p,h5,h3{
+    padding: 1rem 0;
+}
+/* ==========ABOUT US AND MISSIONS ENDS HERE========= */
+
+/* ======category section start here======= */
+.category_text{
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.category_container{
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-content: space-around;
+}
+.category_content{
+    
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    border: 0.2px solid rgba(45, 41, 41,0.5);
+    width: 23%;
+    padding: 20px 15px;
+    transition: 400ms;
+   
+}
+.category_content h4{
+    padding: 8px 0;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+.icon_holder{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-radius:10px;
+    justify-content: center;
+    height: 55px;
+    /* border: 3px solid red; */
+    width:55px;
+    background: #fbf6ea;
+    font-size: 35px;
+    /* background: red; */
+}
+.category_content:hover{
+    border: 0;
+    background: var(--yellow);
+    transition: 400ms;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px  rgba(45, 41, 41,0.5) ; */
+}
+/* ======category section endt here======= */
+
+/* =====discover more section starts here=======  */
+.discover_section{
+    padding-top: 40px;
+}
+.discover_container{
+    position: relative;
+    /* border: 3px solid blue; */
+    height: 705px;
+    display: flex;
+}
+.left_div{
+    width: 70%;
+    /* border: 3px solid red; */
+    background: url(./pictures/close-up-photography-of-man-wearing-sunglasses-1212984.png);
+    
+}
+.right_div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 3rem;
+    background: var(--white);
+    justify-content: center;
+    width: 45%;
+    /* border: 2px solid green; */
+    height: 550px;
+    right: 0;
+    top: 150px;
+}
+.right_div h1,p{
+    padding: 2rem 0;
+    font-family: 'Rubik', sans-serif;
+}
+.right_div h1{
+    font-size: 35px;
+}
+.discover{
+    width:250px;
+}
+/* =====discover more section ends here=======  */
+
+
+/* =========AUTHORS SECTION STARTS HERE========  */
+section h1{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Rubik', sans-serif;
+}
+.author_container{
+    border: 3px solid yellow;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Rubik', sans-serif;
+}
+.author_div{
+    padding-top: 15px;
+    border: 3px solid green;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 22%;
+    background: var(--light-grey);
+    transition: 300ms;
+}
+.author_div:hover{
+background: var(--author-hover);
+box-shadow: 0 15px 10px #777;
+transition: 400ms;
+cursor: pointer;
+/* padding:17px ; */
+
+}
+
+.pics_holder{
+    height: 120px;
+    width: 120px;
+    /* border: 3px solid turquoise; */
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+}
+.one{
+    
+    background: url(./pictures/man-in-yellow-button-up-shirt-wearing-black-framed-eyeglasses-7562313.png);
+}
+.two{
+  background: url(./pictures/woman-in-white-and-black-striped-shirt-wearing-black-sunglasses-3671083.png);
+}
+.three{
+    background: url(./pictures/fashion-woman-cute-shoes-5704849.png);
+}
+.four{
+    background: url(./pictures/content-baker-with-delicious-puff-in-cafeteria-6205509.png);
+}
+
+.socials_links-holder{
+    border: 3px solid greenyellow;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    width: 60%;
+}
+.facebook,.twitter, .insta, .linkedin{
+    /* border: 3px solid red; */
+    width: 30px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 30px;
+}
+.author_text{
+    padding: 20px 0;
+}
+.author_div h2{
+    /* border: 3px solid; */
+    padding:10px 0 ;
+}
+/* =========AUTHORS SECTION   ENDS HERE========  */
+
+
+/* =======listed logo starts here====== */
+.logo_container{
+    border: 3px solid red;
+    padding: 60px 0;
+    background: url(./logos/Logo\ component.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* =======listed logo ends here====== */
+
+/* ======testimonials starts here======= */
+
+.testimonial_container{
+    border: 3px solid red;
+    display: flex;
+    padding: 4rem;
+    /* font-family: 'Rubik', sans-serif; */
+font-family: 'Thasadith', sans-serif;
+}
+.right_write{
+    border: 3px solid blue;
+    padding: 3rem;
+    width: 40%;
+}
+.left_write{
+    border: 3px solid aqua;
+    padding: 1rem;
+    width: 60%;
+}
+.second_container{
+    border: 3px solid goldenrod;
+    padding: 3rem 0;
+    width: 100%;
+   
+}
+
+.test_pic-holder{
+    border: 3px solid ;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.pics{
+    border: 2px solid green;
+    background: url(./pictures/Profile\ picture.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+.icons__holder{
+    border: 3px solid blue;
+    padding: 20px ;
+}
+/* ======testimonials ends here======= */
