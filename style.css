@@ -38,14 +38,30 @@
 .window-scroll{
     background: var(--black);
 }
-li{
+li {
     padding: 0 0.3rem;
+    list-style: none;
     transition: 400ms;
     border: 0px solid transparent;
 }
+/* =========anchor tags styling starts here======== */
+
+a{
+    text-decoration: none;
+    color: var(--white);
+
+}
+.socials_links-holder a{
+    color: var(--color-black);
+    transition: 400ms;
+}
+
+
+/* =========anchor tags styling starts here======== */
 li:hover{
     padding: 0.4rem 0.5rem;
     border: 1px solid white;
+    cursor: pointer;
 }
 
 ul{
@@ -505,6 +521,7 @@ background: var(--author-hover);
 
 .final_message{
     text-align: center;
+    padding-bottom:4rem ;
 }
 .final_message h2{
     padding-top: 20px;
@@ -520,14 +537,76 @@ font-family: 'Thasadith', sans-serif;
 /* =================finishing endt here============ */
 
 /* ======footer section starts here==== */
-.footer_container{
-    border: 3px solid red;
-}
-.subscribe_container{
-    border: 2px solid green;
-}
+
 .footer{
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     padding: 20px 30px;
+    background: var(--black);
+}
+
+.footer_content_container{
+    /* border: 3px solid red; */
+    padding: 4rem;
+    background:var(--footer-inner);
+    font-family: 'Thasadith', sans-serif;
+}
+.input{
+    /* border: 3px solid blue; */
+    padding: 10px 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.subscribe_text{
+    width: 50%;
+    /* border: 3px solid; */
+    font-size: 25px;
+    line-height: 1.5;
+    color: var(--white);
+}
+.footer_content_container{
+    display: flex;
+}
+.input input[type=text]{
+    width: 60%;
+    background: var(--light-grey);
+    /* border-bottom: 2px solid; */
+    -webkit-animation: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    /* border: 3px solid greenyellow; */
+}
+input[type=text]:focus{
+    background: var(--light-grey);
+    transition: 0.5s;
+    width: 65%;
+    height: 55%;
+
+}
+
+.end_button,input[type=text]{
+    height: 52%;
+}
+.end_button{
+    padding: 0 3rem;
+}
+input{
+    background: var(--box-color);
+    color: var(--);
+    font-size: 15px;
+    outline: 1.5px;
+    border-bottom: 1.5px solid var(--light-grey);
+}
+.final__footer{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    color: var(--medium-grey-icon);
+    padding: 0 3.4rem; 
+}
+.final__footer .socials_links-holder{
+    /* border: 3px solid green; */
+    width: 25%;
+    
 }
 /* ======footer section starts here==== */
