@@ -91,6 +91,7 @@ ul{
 .btn{
     padding: 0.7rem 2rem;
     border: 0;
+    transition: 400ms;
 }
 
 .header-btn{
@@ -139,6 +140,7 @@ ul{
 span{
     color: var(--yellow);
 }
+
 .read_btn{
     margin-top: 1rem;
     background: var(--yellow);
@@ -146,12 +148,24 @@ span{
     font-size: 15px;
     padding: 1rem 2rem;
     transition: 400ms;
+    color: var(--white);
 }
 .read_btn:hover{
     background: var(--btn-after);
     cursor: pointer;
-    color: var(--white);
+    color: var(--black);
+    transition: 400ms;
+    
 }
+.read_btn:hover a{
+    
+    cursor: pointer;
+    color: var(--black);
+    transition: 400ms;
+    
+}
+
+
 /* =======hero section ends here======= */
 
 
@@ -430,16 +444,21 @@ cursor: pointer;
 
 /* =======listed logo starts here====== */
 .logo_container{
-    /* border: 3px solid red; */
+    border: 3px solid red;
     padding: 60px 0;
     background: url(./logos/Logo\ component.png);
     background-repeat: no-repeat;
     background-position: center;
     transition: 400ms;
+    
 }
 .logo_container:hover{
-    box-shadow: 0 15px 10px #777;
+    /* box-shadow: 0 15px 10px #e33838; */
+    box-shadow:inset 0 15px 10px rgba(119, 119, 119,0.4) ;
+    /* padding: 70px 20px; */
     transition: 400ms;
+    cursor: pointer;
+    /* z-index: 5; */
 }
 /* =======listed logo ends here====== */
 
