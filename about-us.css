@@ -118,8 +118,8 @@ ul{
 .group_pics{
     height: 444px;
     background: url(./pictures/close-up-photography-of-man-wearing-sunglasses-1212984.png);
-    border: 3px solid green;
-    background-position: center;
+    /* border: 3px solid green; */
+    background-position: bottom;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
