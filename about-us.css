@@ -11,7 +11,7 @@ html{
     position: fixed;
     width: 100%;
     z-index: 10;
-    display: none;
+    /* display: none; */
 }
 .header{
     /* border: 3px solid red; */
@@ -112,14 +112,62 @@ ul{
 
 
 
+/* =========HERO SECTION STARTS HERE===========     */
+.hero_container{
+    /* border: 3px solid rgb(20, 8, 199); */
+    /* height: 6rem; */
+    display: flex;
+}
+
+.left_container{
+    width: 50%;
+    /* border: 3px solid tomato; */
+    text-align: center;
+}
+.left_container .text{
+    padding: 1rem;
+    font-weight: 100;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rubik', sans-serif
+}
+.klass{
+    font-size: 48px;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rubik', sans-serif
+}
+
+.right_container{
+    padding: 4rem 4rem;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.first_hero{
+    padding-top: 8rem;
+}
+
+        /* =========HERO SECTION ENDS HERE===========  */
+
+
 
 
 /* ======================GROUP PICS STARTS HERE======================== */
 .group_pics{
     height: 444px;
-    background: url(./pictures/close-up-photography-of-man-wearing-sunglasses-1212984.png);
+    background:linear-gradient(to left, rgba(31, 64, 55, 0.8), rgba(153, 242, 200,0.7)), url(./pictures/close-up-photography-of-man-wearing-sunglasses-1212984.png);
     /* border: 3px solid green; */
     background-position: bottom;
+    /* padding-top: 3rem; */
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
